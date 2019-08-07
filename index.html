@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta lang="ru">
+    <title>Reg form</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg">
+            
+        </div>
+        <section class="login">
+
+            <div class="soc_login">
+                <div class="fh_title">
+                    <h2>Get iintoo it today</h2></div>
+                <div class="fh_sub gr">There no charge or obligation opon registration </div>
+             
+                <div class="fh_buttons">
+                    <button class="fb">
+                        <img src="img/facebook.svg" alt="FB" style="width: 15px; height: 15px;">
+
+                        <span class="bu_te">Registeg whith Facebook</span></button>
+                    <button class="in">
+                        <img src="img/linkedin.svg" alt="FB" style="width: 15px; height: 15px;">
+                        <span class="bu_te"> Registeg whith Linkedin</span></button>
+
+                </div>
+            </div>
+
+            <div class="fh_divader">
+            <span> OR </span>
+                
+            </div>
+            
+
+            <form class="signup-form" action="/register" method="post">
+                <section class="get_data">
+                    <div class="gd_e gd">
+                        <label for="Email" class="label-title smgr">Email</label>
+                        <input type="text" id="email" class="form-input" required="required" />
+                    </div>
+                    <div class="gd_p gd">
+                        <label for="Phone" class="label-title smgr">Phone</label>
+                        <input type="text" id="phone" class="form-input" required="required" />
+
+                    </div>
+                </section>
+                <section class="qizz">
+                    <div class="q_title">
+                        <h3>
+                        <label class="qt_main">What type of investor are you ? </label>
+                        </h3>
+                        <label class="qt_small smgr">Select the type of investor you are below? </label>
+                    </div>
+                    <div class="q_ch">
+                        <div><input type="radio" name="ty_in" value="ie">Individual</div>
+                        <div> <input type="radio" name="ty_in" value="opera">Bisiness </div>
+                        <div><input type="radio" name="ty_in" value="firefox">IRA  </div>
+                        
+                        </div>
+                       
+                </section>
+                      
+                 <div class="hint smgr">
+                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam  
+                        </div>   
+
+                <div class="terms smgr">
+                    <input type="checkbox">I agree whith terms <a href="#">View full terms</a>
+                </div>
+                
+            <button class="sb_button" type="submit"> <b>Create Account </b> </button>  
+            </form>
+
+
+        </section>
+    </div>
+</body>
+
+</html>
